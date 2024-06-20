@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cek Khodam Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-image: url('https://i.ibb.co.com/zVmbgcm/IMG-20240619-WA0386.png'); /* Pastikan path ini benar */
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            color: #333; /* Tambahkan warna teks agar terlihat */
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.8); /* White background with some transparency */
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: 50px auto;
+            text-align: center;
+        }
+        .header-image {
+            width: 100%; /* Atur ukuran gambar header sesuai kebutuhan */
+            max-width: 300px; /* Maksimal lebar gambar */
+            margin-bottom: 20px;
+        }
+        h1 {
+            display: none; /* Sembunyikan teks h1 karena digantikan oleh gambar */
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        form label {
+            display: block;
+            margin-bottom: 25px;
+            color: black; /* Warna teks hitam */
+        }
+        form input {
+            display: block;
+            margin: 0 auto 20px auto; /* Tambahkan margin bawah untuk jarak, dan center input */
+        }
+        form button {
+            display: block;
+            margin: 20px auto; /* Center tombol dan tambahkan margin atas sedikit */
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #000; /* Warna teks di footer */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://svgshare.com/i/17Qj.svg" alt="Cek Khodam Online" class="header-image"> <!-- Ganti dengan path gambar header Anda -->
+        <audio id="myAudio" src="assets/Malam Hantu.mp3" loop autoplay></audio>
+        <form id="namaForm">
+            <label for="nama">Masukkan Nama Anda:</label>
+            <input type="text" id="nama" name="nama" required>
+            <button type="submit">Cek Khodam</button>
+        </form>
+        <div id="hasil">
+            <p id="makhlukText"></p>
+            <img id="makhlukImg" src="" alt="Gambar Makhluk Mitologi" style="display:none;">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2021 xlordcode. All rights reserved. Follow TikTok ku Cok <a href="https://www.tiktok.com/@xlordduyy" target="_blank">@xlordduyy</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

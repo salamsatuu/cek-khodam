@@ -1,0 +1,112 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('assets/img/DALL·E\ 2024-06-19\ 18.17.33\ -\ A\ dark\ and\ eerie\ illustration\ of\ a\ mythical\ kingdom\ inspired\ by\ Indonesian\ mythology.\ The\ scene\ features\ an\ ancient\,\ crumbling\ palace\ surrounded\ by\ de.webp');
+    background-size: cover;
+    color: #ff6f00; /* Warna oranye Halloween */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7); /* Transparan hitam */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #fff; /* Warna teks putih */
+}
+
+h1 {
+    color: #ff6f00; /* Warna oranye Halloween */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    color: #000; /* Warna teks label putih */
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.2); /* Latar belakang input transparan putih */
+    border: 1px solid #ff6f00; /* Border oranye */
+    color: #000; /* Warna teks putih */
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(100% - 24px); /* Menyesuaikan lebar input */
+    margin-bottom: 10px;
+}
+
+input::placeholder {
+    color: #ddd; /* Warna placeholder lebih terang */
+}
+
+button {
+    background-color: #ff6f00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #e65c00;
+}
+
+#hasil {
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: #000;
+}
+
+#makhlukImg {
+    margin-top: 10px;
+    width: 150px;
+    height: auto;
+    border: 2px solid #ff6f00; /* Border oranye */
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    width: 100%;
+    height: 50px; /* Adjust the height as needed */
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+footer a {
+    color: black;
+    text-decoration: none; /* Optional: Removes underline from links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Optional: Adds underline on hover */
+}
+
+#donate {
+display: inline-block;
+padding: 10px 20px;
+margin-bottom: 20px;
+background-color: #ff4500;
+color: white;
+text-decoration: none;
+font-size: 16px;
+font-weight: 600;
+border-radius: 5px;
+transition: background-color 0.3s ease;
+}
